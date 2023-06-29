@@ -3,6 +3,6 @@
     interface ICLown
     {
         string FunnyThingIHave { get; }
-        void Honk();
+        void Honk()
     }
 }
