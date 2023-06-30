@@ -10,13 +10,12 @@ namespace ScaryClown
     {
         private int scaryThingCount;
         public int ScaryThingCount { get; set; }
-        public string ScaryThingIHave { get { return $" {scaryThingCount} spiders"; } }
+        public string ScaryThingIHave { get { return $"{scaryThingCount} spiders"; } }
 
         public void ScareLittleChildren()
         {
             Console.WriteLine($"Boo! Gotcha! Look at my {ScaryThingIHave} !");
         }
-
 
         public ScaryScary(string funnyThing, int scaryThingCount) :base (funnyThing)
         {
