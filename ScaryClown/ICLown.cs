@@ -1,8 +1,8 @@
 ﻿namespace ScaryClown
 {
-    interface ICLown
+    interface IClown
     {
         string FunnyThingIHave { get; }
-        void Honk()
+        void Honk();
     }
 }

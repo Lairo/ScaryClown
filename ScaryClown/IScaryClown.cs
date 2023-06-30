@@ -1,7 +1,9 @@
 ﻿namespace ScaryClown
 {
-    interface IScaryClown
+    interface IScaryClown : IClown
     {
+        string ScaryThingIHave { get; }
+        void ScareLittleChildren();
 
     }
 }
