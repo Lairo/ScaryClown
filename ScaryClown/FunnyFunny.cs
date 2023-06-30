@@ -8,7 +8,7 @@ namespace ScaryClown
 {
     class FunnyFunny : IClown
     {
-        private string funnyThingIHave;
+        private readonly string funnyThingIHave;
 
         public string FunnyThingIHave { get { return funnyThingIHave; } }
 
