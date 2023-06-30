@@ -8,7 +8,7 @@ namespace ScaryClown
 {
     class ScaryScary : FunnyFunny, IScaryClown
     {
-        private int scaryThingCount;
+        private readonly int scaryThingCount;
         public int ScaryThingCount { get; set; }
         public string ScaryThingIHave { get { return $"{scaryThingCount} spiders"; } }
 
